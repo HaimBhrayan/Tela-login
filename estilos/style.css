@@ -11,7 +11,6 @@ lilais #5f2c82*/
 }
 html, body{
     width: 100vw;
-    height: 100vw;
     background-color: #5f2c82 ;
 }
 main{
@@ -29,6 +28,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 border-radius: 20px;
 overflow: hidden;
+transition: width 1s, height 1s;    
 
 }
 section> div#imagem{
