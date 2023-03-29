@@ -1,48 +1,67 @@
 @charset "UTF-8";
 
-@media screen and (min-width:768px) and (max-width: 992px){
-    html, body{
+@media screen and (min-width:768px) and (max-width: 992px) {
+
+    html,
+    body {
         width: 100%;
     }
-body{
-    background-image: linear-gradient(to top, #49a09d, #5f2c82);
-}
-main > section#login{
-    min-width: 50%;
-    
-}
-section div#imagem{
-    float: left;
-    height: 100%;
-    width: 30%;
-    transition: width 1s, heigth 1s;
-}
-section div#formulario{
-    float: right;
-    width: 50%;
-    transition: width 1s, heigth 1s;
-}
-}
-@media screen and (min-width:992px){
-    html, body{
-        width: 100%;
-    }  
-    body{
+
+    body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    main > section{
+
+    main>section#login {
+        min-width: 50%;
+
+    }
+
+    section div#imagem {
+        float: left;
+        height: 100%;
+        width: 30%;
+        transition: width 1s, heigth 1s;
+    }
+
+    section div#formulario {
+        float: right;
+        width: 50%;
+        transition: width 1s, heigth 1s;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    html,
+    body {
+        width: 100%;
+    }
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    main>section {
         min-width: 70%;
     }
-    section div#imagem{
+
+    section div#imagem {
+        float: right;
+        height: 100%;
+        width: 50%;
+        transition: width 0.2s, heigth 0.2s;
+    }
+
+    section div#formulario {
         float: left;
         height: 100%;
         width: 50%;
         transition: width 0.2s, heigth 0.2s;
     }
-    section div#formulario{
-        float: right;
-        height: 100%;
-        width: 50%;
-        transition: width 0.2s, heigth 0.2s;
+    #formulario h1{
+        font-size: 2em;
+    }
+    #formulario p{
+        font-size: 1.2em;
     }
 }
