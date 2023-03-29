@@ -19,7 +19,7 @@
     section div#imagem {
         float: left;
         height: 100%;
-        width: 30%;
+        width: 50%;
         transition: width 1s, heigth 1s;
     }
 
@@ -63,5 +63,15 @@
     }
     #formulario p{
         font-size: 1.2em;
+    }
+    input[type=submit]{
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    .botao{
+        width: 90%;
+        margin: auto;
     }
 }
